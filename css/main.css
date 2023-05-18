@@ -89,6 +89,7 @@ img {
 
 .secondparagraph {
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .clearfix::after {
