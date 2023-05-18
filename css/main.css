@@ -1,3 +1,112 @@
+/* reset the css file */ 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 body {
-    
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* set the base size for all rem units to follow on mobile*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+    background-color: rgb(32, 50, 50);
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* set the mobile wrapper width of the whole body */
+.wrapper {
+    background-color: rgb(32, 50, 50);
+    margin: 0 auto; 
+    /* padding: 0 300px; */
+    width: 70%;
+}
+
+header {
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header, .description {
+    background-color: #86c8c3;
+}
+
+img {
+    width: 150px;
+    float: left;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+.secondparagraph {
+    padding-top: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both; 
+}
+
+/* style the description list */
+.description {
+    padding: 10px;
+}
+
+.description dl dt {
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+footer {
+    padding-top: 10px;
 }
